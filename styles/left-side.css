@@ -1,0 +1,25 @@
+.left-section,
+.right-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 489px;
+}
+
+.left-section {
+    align-items: start;
+    margin-bottom: 75px;
+}
+
+.logo-paragraph {
+    margin-left: 34px;
+    font-size: 26px;
+}
+
+
+.fb-logo {
+    height: 108px;
+    margin-top: 10px;
+}

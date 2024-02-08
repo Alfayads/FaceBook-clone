@@ -1,0 +1,97 @@
+.form-div {
+    height: 356px;
+    width: 397px;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+input,
+.log-in-btn {
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+input:focus {
+    outline: 1px solid #1877f2;
+    box-shadow: 0 0 4px #9cc7ff;
+}
+
+.log-in-btn {
+    background-color: #1877f2;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.link {
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.create-new-account-div {
+    width: 91%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 1px solid rgb(209, 209, 209);
+    padding-top: 15px;
+}
+
+.create-new-account-btn {
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s ;
+}
+
+.create-new-account-btn:hover{
+    background-color: #439d31;
+}
+
+.create-new-account-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.box-paragraph {
+    font-size: 13px;
+    margin-top: 14px;
+}
+
+.box-paragraph span {
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.box-paragraph span:hover {
+    text-decoration: underline;
+}
